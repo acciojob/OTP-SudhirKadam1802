@@ -18,6 +18,9 @@ codes.forEach((input, index) => {
 
       if (input.value === "" && index > 0) {
         codes[index - 1].focus();
+      } 
+      else {
+        input.value = "";
       }
 
     }
